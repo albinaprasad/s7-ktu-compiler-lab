@@ -21,7 +21,7 @@ void E() {
 // T -> F T'
 void T() {
     F();
-    if (input[i] == '') {  // Handle the '' operator directly in T
+    if (input[i] == ' ') {  // Handle the '' operator directly in T
         i++;
         F();
     }
